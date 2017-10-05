@@ -40,8 +40,9 @@
                   <i class="fa fa-circle" aria-hidden="true"></i>
                   <i class="fa fa-circle" aria-hidden="true"></i>
               </div>
+              <h3>{{ lang.headings.about }}</h3>
               <div class="contact-row">
-                  <a :href="'https://github.com/'+person.contact.github">https://github.com/{{person.contact.github}}</a>
+                  {{person.about}}
               </div>
           </div>
       </div>
@@ -112,8 +113,8 @@ export default Vue.component(name, getVueOptions(name));
   }
   .top-row {
     width:100%;
-    padding-top:100px;
-    padding-bottom:100px;
+    padding-top:50px;
+    padding-bottom:50px;
     span {
       width:100%;
       display:block;
@@ -161,7 +162,7 @@ export default Vue.component(name, getVueOptions(name));
       }
     }
     .contact .contact-row:first-of-type {
-      margin-top:50px;
+      margin-top:20px;
     }
     .contact .contact-row.dots {
       margin-top:20px;
@@ -176,31 +177,31 @@ export default Vue.component(name, getVueOptions(name));
     padding-left:4%;
     padding-right:8%;
     .experience-block {
-      margin-bottom:10px;
+      margin-bottom:12px;
       .row:first-child {
         margin-bottom:3px;
       }
       .row .company {
         text-transform:uppercase;
-        font-size:19px;
+        font-size:18px;
       }
       .row .job-title {
-        font-size:19px;
+        font-size:18px;
       }
     }
     .education {
-      margin-top:50px;
+      margin-top:20px;
       .education-block {
         margin-bottom:10px;
         .degree {
-          font-size:19px;
+          font-size:18px;
           text-transform:uppercase;
           margin-bottom:3px;
         }
       }
     }
     .skills-block {
-      margin-top:50px;
+      margin-top:20px;
       position:relative;
       .skills {
         margin-bottom:10px;
@@ -217,7 +218,7 @@ export default Vue.component(name, getVueOptions(name));
           border:#333333 1px solid;
           margin:3px;
           float:left;
-          font-size:13px;
+          font-size:12px;
           .skill-name {
             text-align:center;
             position:absolute;
