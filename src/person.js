@@ -14,7 +14,7 @@ export const PERSON = {
   experience: [{
       company: 'Russ Reid',
       position: 'Accounts Payable Clerk',
-      timeperiod: '2017 (Contract)',
+      timeperiod: '2016 (Contract)',
       description: 'Maintained accounts payable cycle and processed expense reports. Worked with Salesforce, BofA Works, and Advantage Aqua software.'
     },
     {
