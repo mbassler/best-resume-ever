@@ -12,6 +12,12 @@ export const PERSON = {
     location: 'Los Angeles'
   },
   experience: [{
+      company: 'Aramark',
+      position: 'Tax Clerk',
+      timeperiod: '2017 - 2018',
+      description: 'Submitted applications and payments for business licenses. Processed quarterly B&O taxes based sales figures from RAS reports.'
+    },
+    {
       company: 'Russ Reid',
       position: 'Accounts Payable Clerk',
       timeperiod: '2016 (Temporary Assignment)',
@@ -70,8 +76,8 @@ export const PERSON = {
   contact: {
     email: 'danielle@basslerclan.com',
     phone: '818.472.6334',
-    street: '2800 Montrose Ave',
-    city: 'La Crescenta',
+    street: '500 E Providencia Ave Apt Q',
+    city: 'Burbank, CA 91501',
     // website: '',
     // github: ''
   },

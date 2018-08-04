@@ -113,8 +113,8 @@ export default Vue.component(name, getVueOptions(name));
   }
   .top-row {
     width:100%;
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top:40px;
+    padding-bottom:40px;
     span {
       width:100%;
       display:block;
@@ -123,11 +123,11 @@ export default Vue.component(name, getVueOptions(name));
     }
     span.person-name {
       text-transform:uppercase;
-      font-size:50px;
-      letter-spacing:10px;
+      font-size:40px;
+      letter-spacing:8px;
     }
     span.person-position {
-      letter-spacing:5px;
+      letter-spacing:4px;
     }
   }
   .left-col {
@@ -151,7 +151,7 @@ export default Vue.component(name, getVueOptions(name));
     }
     .contact h3 {
       text-align:center;
-      margin-top:20px;
+      margin-top:16px;
     }
     .contact .contact-row {
       text-align:center;
@@ -167,7 +167,7 @@ export default Vue.component(name, getVueOptions(name));
     .contact .contact-row.dots {
       margin-top:20px;
       margin-bottom:15px;
-      font-size:10px;
+      font-size:8px;
       color:rgba(153,153,153,0.6);
     }
   }
@@ -177,35 +177,35 @@ export default Vue.component(name, getVueOptions(name));
     padding-left:4%;
     padding-right:8%;
     .experience-block {
-      margin-bottom:12px;
+      margin-bottom:10px;
       .row:first-child {
         margin-bottom:3px;
       }
       .row .company {
         text-transform:uppercase;
-        font-size:18px;
+        font-size:14px;
       }
       .row .job-title {
-        font-size:18px;
+        font-size:14px;
       }
     }
     .education {
-      margin-top:20px;
+      margin-top:16px;
       .education-block {
-        margin-bottom:10px;
+        margin-bottom:3px;
         .degree {
-          font-size:18px;
+          font-size:16px;
           text-transform:uppercase;
           margin-bottom:3px;
         }
       }
     }
     .skills-block {
-      margin-top:20px;
+      margin-top:16px;
       position:relative;
       .skills {
-        margin-bottom:10px;
-        margin-bottom:20px;
+        margin-bottom:8px;
+        margin-bottom:16px;
         position:relative;
         margin-left:auto;
         margin-right:auto;
@@ -230,7 +230,7 @@ export default Vue.component(name, getVueOptions(name));
         .skills-other {
           display:inline-block;
           width:100%;
-          margin-top:20px;
+          margin-top:16px;
         }
       }
     }
